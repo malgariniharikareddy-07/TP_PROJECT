@@ -1,0 +1,58 @@
+.donation-container {
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.donation-container h2 {
+  margin-bottom: 20px;
+  color: darkorange;
+  font-family: "Georgia", serif;
+}
+
+.donation-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.donation-form label {
+  text-align: left;
+  font-weight: bold;
+  color: #333;
+}
+
+.donation-form input,
+.donation-form select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.donation-form input:focus,
+.donation-form select:focus {
+  border: 1px solid darkorange;
+  outline: none;
+  box-shadow: 0 0 6px rgba(255, 165, 0, 0.5);
+}
+
+.donation-form button {
+  background: orange;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.donation-form button:hover {
+  background: darkorange;
+  transform: scale(1.05);
+}
